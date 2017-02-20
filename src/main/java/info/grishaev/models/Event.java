@@ -7,7 +7,7 @@ import java.util.Date;
  * Created by stas on 16/02/17.
  */
 @Entity
-//@Table
+@Table(name = "Event")
 public class Event {
 
     @Id
